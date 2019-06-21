@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@color/colorPhysoon"
+    android:orientation="vertical">
+
+
+    <com.physson.getphys.TouchImageView
+        android:id="@+id/imgViewDialog"
+        android:layout_height="300dp"
+        android:layout_width="400dp"/>
+
+</LinearLayout>

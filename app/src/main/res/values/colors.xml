@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="whitephysson">#ffffff</color>
+
+
+    <color name="colorPhysoon">#d9d6d7</color>
+    <color name="nichebackground">#b1e1c2</color>
+
+    <color name="white">#8ba17c</color>
+    <color name="white_87">#DEFFFFFF</color>
+    <color name="white_54">#8AFFFFFF</color>
+    <color name="physsonblue">#6c74b0</color>
+    <color name="physsonewhiteback">#fff</color>
+    <color name="physsontextcolorred">#798da6</color>
+</resources>

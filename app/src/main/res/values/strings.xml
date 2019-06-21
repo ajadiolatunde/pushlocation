@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pushlocation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="banner_home_footer">ca-app-pub-2028579863498174/9478554645</string>
+    <string name="banner_about">ca-app-pub-2028579863498174/3684841873</string>
+    <string name="banner_test">ca-app-pub-2028579863498174/1220252648</string>
+</resources>

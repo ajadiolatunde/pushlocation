@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557400998215",
+    "firebase_url": "https://getphys-e646b.firebaseio.com",
+    "project_id": "getphys-e646b",
+    "storage_bucket": "getphys-e646b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557400998215:android:d57403288862679a",
+        "android_client_info": {
+          "package_name": "com.physson.getphys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557400998215-lko7g1en6an0h3kojnvs9gg5eqf8gdc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.physson.getphys",
+            "certificate_hash": "51e5e4b2ab3905c83a2e41d88c3ef304598ccbaf"
+          }
+        },
+        {
+          "client_id": "557400998215-cqu8ovn5o7hqmthsr4jbfrbv0qtmcldb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBLZr1VpaILjKMnFUb6W13m7kfc9tsPN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557400998215-cqu8ovn5o7hqmthsr4jbfrbv0qtmcldb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

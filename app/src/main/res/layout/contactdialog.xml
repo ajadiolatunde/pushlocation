@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_margin="20dp"
+    android:background="@color/physsonblue"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+    android:id="@+id/nameWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Contact name"
+        android:textColorHint="#fff"
+    android:layout_marginTop="4dp">
+        <EditText
+            android:id="@+id/usernameContact"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/numberWrapper"
+        android:layout_width="300dp"
+        android:hint="Contact phone number"
+        android:textColorHint="#fff"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+        <EditText
+            android:id="@+id/numberContactEv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_margin="4dp"
+        android:textColor="#fff"
+        android:background="@drawable/transparent"
+        android:id="@+id/contactsavebtn"/>
+
+</LinearLayout>

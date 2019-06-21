@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/colorPhysoon"
+    android:elevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/physsonewhiteback"
+        android:layout_margin="2dp"
+
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:id="@+id/imgVw"
+            android:layout_weight="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:clickable="true"
+                android:textColor="@color/physsonblue"
+                android:padding="5dp"
+                android:id="@+id/fromTv"
+                android:text="0803445664"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:clickable="true"
+                android:textColor="@color/physsonblue"
+                android:padding="2dp"
+                android:id="@+id/descTv"
+                android:text="Testing hih"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/timeTv"
+                android:padding="2dp"
+                android:text="Low Testing"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/round2corner"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:text="Forward"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+            android:id="@+id/pushBtn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/transparent"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="View"
+            android:id="@+id/viewBtn" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/transparent"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:id="@+id/delBtn" />
+
+    </LinearLayout>
+
+</LinearLayout>

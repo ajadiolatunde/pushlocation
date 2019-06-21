@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="@color/colorPhysoon"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/physsonewhiteback"
+        android:layout_margin="8dp"
+        android:id="@+id/layout1"
+        android:elevation="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:padding="1dp"
+            android:text="A"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@drawable/circle_2"
+            android:id="@+id/c_iconImg"
+            android:layout_weight="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:clickable="true"
+                android:textColor="@color/physsonblue"
+                android:padding="5dp"
+                android:id="@+id/c_nameTV"
+                android:text="Olajide ajadi"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="0dp"
+                android:clickable="true"
+                android:textColor="@color/physsonblue"
+                android:padding="2dp"
+                android:id="@+id/c_phoneTv"
+                android:text="Testing hih"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/c_dateTv"
+                android:padding="2dp"
+                android:text="Low Testing"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:id="@+id/c_delImg"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_weight="1.5"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
